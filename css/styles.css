@@ -1,0 +1,62 @@
+h1 {
+  font-size: 100px;
+  text-align: center;
+  margin-top: 500px;
+}
+
+
+@media screen and (max-width: 640px) {
+  body {
+    background-color: black;
+    color: white;
+  }
+}
+
+@media screen and (min-width: 641px) and (max-width: 740px) {
+  body {
+    background-color: #FF0000;
+    color: #8B00FF;
+  }
+}
+
+@media screen and (min-width: 741px) and (max-width: 840px) {
+  body {
+    background-color: #FF7F00;
+    color: #0000FF;
+  }
+}
+
+@media screen and (min-width: 841px) and (max-width: 940px) {
+  body {
+    background-color: #FFFF00;
+    color: #00FF00;
+  }
+}
+
+@media screen and (min-width: 941px) and (max-width: 1040px) {
+  body {
+    background-color: #00FF00;
+    color: #FFFF00;
+  }
+}
+
+@media screen and (min-width: 1041px) and (max-width: 1140px) {
+  body {
+    background-color: #0000FF;
+    color: #FF7F00;
+  }
+}
+
+@media screen and (min-width: 1141px) and (max-width: 1240px) {
+  body {
+    background-color: #8B00FF;
+    color: #FF0000;
+  }
+}
+
+@media screen and (min-width: 1241px) {
+  body {
+    background-color: white;
+    color: black;
+  }
+}
